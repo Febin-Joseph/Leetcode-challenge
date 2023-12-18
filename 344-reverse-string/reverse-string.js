@@ -3,13 +3,13 @@
  * @return {void} Do not return anything, modify s in-place instead.
  */
 var reverseString = function(s) {
-    let left = 0;
-    let right = s.length - 1;
+    let arr = [];
 
-    while (left < right) {
-        [s[left], s[right]] = [s[right], s[left]];
+    for (let i = 0; i < s.length; i++) {
+        let val = arr.unshift(s[i])
+    }
 
-        left++
-        right--
+    for (let i = 0; i < s.length; i++) {
+        s[i] = arr[i];
     }
 };
