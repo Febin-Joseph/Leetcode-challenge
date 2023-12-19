@@ -17,6 +17,7 @@ This repository is a dynamic space, continually evolving with each new problem e
 
 # 🔗 Explore More:
 
-[LinkedIn](https://www.linkedin.com/in/febin-joseph-24aaa8243/) /n
+[LinkedIn](https://www.linkedin.com/in/febin-joseph-24aaa8243/)
+
 [Email](febinachu123@gmail.com)
 🌟 Let's code and conquer together!
