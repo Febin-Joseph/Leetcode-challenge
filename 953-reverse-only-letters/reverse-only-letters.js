@@ -3,7 +3,7 @@
  * @return {string}
  */
 var reverseOnlyLetters = function(s) {
-    const english = char => /^[a-zA-Z]$/.test(char)
+    const english = val => /^[a-zA-Z]$/.test(val)
 
     let left = 0;
     let right = s.length - 1;
