@@ -7,17 +7,20 @@ var longestCommonPrefix = function(strs) {
         return "";
     }
 
-    let prefix = "";
+    let prefix = strs[0];
 
-    for (let i = 0; i < strs[0].length; i++) {
-        const currentChar = strs[0][i];
-
-        for (let j = 1; j < strs.length; j++) {
-            if (i >= strs[j].length || strs[j][i] !== currentChar) {
-                return prefix;
-            }
+    for (let i = 1; i < strs.length; i++) {
+        let j = 0;
+        while (j < prefix.length && j < strs[i].length && prefix[j] === strs[i][j]) {
+            j++;
         }
-        prefix += currentChar;
+
+        prefix = prefix.substring(0, j);
+
+        if (prefix === "") {
+            break;
+        }
     }
+
     return prefix;
-};
+}
