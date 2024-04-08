@@ -1,7 +1,3 @@
-/**
- * @param {string} s
- * @return {string}
- */
 var reverseOnlyLetters = function(s) {
     const english = val => /^[a-zA-Z]$/.test(val)
 
