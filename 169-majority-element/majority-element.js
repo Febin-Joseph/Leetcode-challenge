@@ -1,7 +1,3 @@
-/**
- * @param {number[]} nums
- * @return {number}
- */
 var majorityElement = function(nums) {
     let candidate = nums[0];
     let count = 1;
